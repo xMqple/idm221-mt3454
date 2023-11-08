@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'alegreyablack';
+    src: url('Alegreya-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alegreyabold';
+    src: url('Alegreya-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alegreyabold_italic';
+    src: url('Alegreya-BoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('Nunito-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitomedium_italic';
+    src: url('Nunito-MediumItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitobold';
+    src: url('Nunito-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitobold_italic';
+    src: url('Nunito-BoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
