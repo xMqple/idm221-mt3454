@@ -9,12 +9,19 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 <body>
     <main>
-        <img src="../Images/MT_Logo.png" alt="My Logo" id="logo">
+        <img src="../Images/MT_Logo.png" alt="My Logo" class="logo">
+        <ul>
+            <li><a href = "index.html"> Home </a></li>
+            <li><a href = "aboutMe.html"> About Me </a></li>
+            <li><a href = "#workSection"> Work </a></li>
+            <li><a href = "#projectSection"> Projects </a></li>
+            <li><a href = "resume.html"> About Me </a></li>
+        </ul>
         <img src="../Images/Picture_Of_Me.webp" alt="My Picture">
-        <h1>I'm Maple, a Drexel student that recently transfer from CS to UI/UX design!</h1>
+        <h1 class="introduction">I'm Maple, a Drexel student that recently transfer from CS to UI/UX design!</h1>
             <p> Scroll down to see projects I have worked on and places I worked for!</p>
     
-    <div class = "work"> 
+    <div class = "work" id="workSection"> 
         <h2> Work </h2>
             <section class="Paris-Baguette"> 
                 <h3> Paris Baguette </h3>
@@ -23,7 +30,7 @@
                         Paris Baguette is a Korean owned franchise that specializes in French pastries and desserts. 
                         They try to achieve visually appealing pastries that capture the attention of many customers.
                     </p>
-                    <a href="parisBaguette.html">Learn More!</a>
+                    <a class="buttons" href="parisBaguette.html">Learn More!</a>
             </section>
 
             <section class="Free-Library-of-Philadelphia">
@@ -34,7 +41,7 @@
                         They advocate for students who are from low income families that cannot afford paid school programs, 
                         but want a way for their children to actively learn outside of school.
                     </p>
-                <a href="freeLibrary.html">Learn More!</a>
+                <a class="buttons" href="freeLibrary.html">Learn More!</a>
             </section>
 
             <section class="CAGP">
@@ -47,11 +54,11 @@
                         They often communicate with immigrants with their native languages to provide information on what benefits 
                         they can receive in America.
                     </p>
-                <a href="cambodianAssociation.html">Learn More!</a>
+                <a class="buttons" href="cambodianAssociation.html">Learn More!</a>
             </section>
     </div>
 
-    <div class="projects">
+    <div class="projects" id = "projectSection">
             <h2> Projects </h2>
                 <section class="Dremulator">
                     <h3> Dremulator </h3>
@@ -61,7 +68,7 @@
                             There are in-game mechanics that include combat with enemies on your way to classes. 
                             The professors are known as “bosses” in which you would battle it out, determining if you pass or not!   
                         </p>
-                    <a href="dremulator.html">Learn More!</a>
+                    <a class="buttons" href="dremulator.html">Learn More!</a>
                 </div>
         </section>
 
@@ -70,10 +77,10 @@
 
 <footer>
     <a href="resume.html"> View My Resume </a>
-    <div class="footer_icons">
+    <div class="Footer_Icons">
         <!-- LinkedIn icon -->
         <a href="https://www.linkedin.com/in/maple-tieu-4b18441b3/" target="_blank">
-            <img alt="LinkedIn icon" src="../images/linkedin.png" class="icon-44"/>
+            <img alt="LinkedIn icon" src="../images/linkedin.png" class="icons"/>
         </a>
         <!-- Email icon -->
         <a href="mailto:mt3454@drexel.edu" target="_blank">
@@ -85,7 +92,6 @@
         </a>
     </div>
 </footer>
-
 </html>
 
 
