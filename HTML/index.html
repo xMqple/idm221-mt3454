@@ -9,18 +9,45 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 <body>
     <main>
-        <img src="../Images/MT_Logo.png" alt="My Logo" class="logo">
-        <ul>
-            <li><a href = "index.html"> Home </a></li>
-            <li><a href = "aboutMe.html"> About Me </a></li>
-            <li><a href = "#workSection"> Work </a></li>
-            <li><a href = "#projectSection"> Projects </a></li>
-            <li><a href = "resume.html"> About Me </a></li>
-        </ul>
-        <img src="../Images/Picture_Of_Me.webp" alt="My Picture">
-        <h1 class="introduction">I'm Maple, a Drexel student that recently transfer from CS to UI/UX design!</h1>
-            <p> Scroll down to see projects I have worked on and places I worked for!</p>
-    
+        <div class="burger-menu">
+            <!--<a href="https://www.flaticon.com/free-icons/navigation" title="navigation icons">Navigation icons created by Andy Horvath - Flaticon</a>-->
+            <img src="../Images/menu.png" alt = "mobile menu">
+        </div> 
+    <header class = "header-main">
+        <!-- Navigation -->
+        <nav>
+            <div href= "index.html" class = "logo">
+                <img src="../Images/MT_Logo.png" alt="Website Logo">
+            </div>
+            <ul>
+                <li><a href = "aboutMe.html"> About Me </a></li>
+                <li><a href = "#workSection"> Work </a></li>
+                <li><a href = "#projectSection"> Projects </a></li>
+                <li><a href = "resume.html"> Resume </a></li>
+            </ul>
+        </nav>
+
+        <div class="socials">
+            <!-- LinkedIn icon Credits to: <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Md Tanvirul Haque - Flaticon</a>-->
+            <!--<a href="https://www.linkedin.com/in/maple-tieu-4b18441b3/" target="_blank"> -->
+                <img src="../images/linkedin.png" alt="LinkedIn icon"/>
+            </a>
+            <!-- Email icon Credits to: <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a> -->
+            <!--<a href="mailto:mt3454@drexel.edu" target="_blank">-->
+                <img src="../images/email.png" alt="Email icon"/>
+            </a>
+            <!-- Github icon Credits to: <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>-->
+            <!--<a href="https://github.com/xMqple" target="_blank"> -->
+                <img src="../images/github.png" alt="Github icon"/>
+            </a>
+        </div>
+    </header>
+
+    <img src="../Images/Picture_Of_Me.webp" alt="My Picture">
+    <h1 class="introduction">I'm Maple, a Drexel student that recently transfer from CS to UI/UX design!</h1>
+        <p> Scroll down to see projects I have worked on and places I worked for!</p>
+
+    <body class = workAndProjects>
     <div class = "work" id="workSection"> 
         <h2> Work </h2>
             <section class="Paris-Baguette"> 
@@ -71,7 +98,7 @@
                     <a class="buttons" href="dremulator.html">Learn More!</a>
                 </div>
         </section>
-
+    </body>
     </main>
 </body>
 

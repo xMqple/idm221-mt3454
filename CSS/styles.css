@@ -77,6 +77,9 @@ html{
     --font-body-bold: 'NunitoMedium_Italic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     --font-body-bold: 'NunitoBold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     --font-body-bold-italic: 'NunitoBold_Italic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    /* Navigation */
+    --menu-count: 4; 
 }
 
 *{
@@ -87,14 +90,18 @@ body {
     background-color: var(--background-color-light);    
 }
 
+.burger-menu {
+    display: none;
+}
+
 /*footer{
     height: 50vw;
 }*/
 
-img {
+/*img {
     height: auto;
     width: 100%;
-}
+} */
 
 h1 {
     font-family: var(--font-header-bold);
@@ -118,10 +125,10 @@ h3 {
     text-align: center;
 }
 
-.icons {
+/*.icons {
     width: 50px;
     height: 50px;
-}
+}*/
 
 p {
     color: var(--dark-text-light);
@@ -134,14 +141,93 @@ p {
     text-wrap: pretty;
 }
 
-.logo {
-    width: 50%;
-    height: 50%;
+/* Dropdown */
+.header-main {
+    width: 100%;
+    padding: 0 60px;
+    height: 60 px;
+    background-color: var(--background-color-light);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.header-main nav {
+    display: flex;
 }
 
+.header-main .logo {
+    height: 40px;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+}
+
+.header-main .logo img {
+    height: 100%;
+}
+
+.header-main ul {
+    height: 100%;
+    padding-left: 50px;
+    list-style: none;
+    display: flex;
+    align-self: center;
+}
+
+
+.header-main ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 60px;
+    font-size: 1rem;
+    font-family: var(--font-body-bold);
+    color:#222020;
+    background-color: var(--background-color-light);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out 10ms;
+}
+
+/* Socials Styling */
+.header-main .socials {
+    align-self:center;
+    display: flex;
+}
+
+.header-main .socials {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.header-main .socials img {
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+@media only screen and (max-width:600px){
+    header-main {
+        display: none;
+    } 
+}
 .pixelArt {
     width:100px;
     height: 120px;
+}
+
+.workAndProjects img {
+    height: auto;
+    width: 100%;
+}
+
+.workAndProjects a {
+    text-align: center;
 }
 
 .Paris-Baguette {
