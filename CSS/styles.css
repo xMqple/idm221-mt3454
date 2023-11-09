@@ -1,48 +1,98 @@
+/* Fonts */ 
+
 @font-face {
-    font-family: 'alegreyablack';
-    src: url('Alegreya-Black.woff2') format('woff2');
+    font-family: 'AlegreyaBlack';
+    src: url('../Fonts/Alegreya-Black.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'alegreyabold';
-    src: url('Alegreya-Bold.woff2') format('woff2');
+    font-family: 'AlegreyaBold';
+    src: url('../Fonts/Alegreya-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'alegreyabold_italic';
-    src: url('Alegreya-BoldItalic.woff2') format('woff2');
+    font-family: 'AlegreyaBold_Italic';
+    src: url('../Fonts/Alegreya-BoldItalic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'nunitoregular';
-    src: url('Nunito-Regular.woff2') format('woff2');
+    font-family: 'NunitoRegular';
+    src: url('../Fonts/Nunito-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'nunitomedium_italic';
-    src: url('Nunito-MediumItalic.woff2') format('woff2');
+    font-family: 'NunitoMedium_Italic';
+    src: url('../Fonts/Nunito-MediumItalic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'nunitobold';
-    src: url('Nunito-Bold.woff2') format('woff2');
+    font-family: 'NunitoBold';
+    src: url('../Fonts/Nunito-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'nunitobold_italic';
-    src: url('Nunito-BoldItalic.woff2') format('woff2');
+    font-family: 'NunitoBold_Italic';
+    src: url('../Fonts/Nunito-BoldItalic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Html */ 
+
+html{
+    /* Light Mode Colors */
+    --background-color-light:#FFFFFA;
+    --dark-green-light:#456228;
+    --dark-blue-light:#4A768C;
+    --dark-purple-light:#6750A4;
+    --dark-pink-light: #B33D66;
+    --dark-text-light:#222020;
+
+    /* Dark Mode Colors */
+    --background-color-dark:#222020;
+    --light-green-dark:#95B7A3;
+    --light-blue-dark:#C2E0E7;
+    --light-purple-dark:#C9BAE3;
+    --light-pink-dark: #E49AAD;
+    --light-text-dark:#FFFFFA;
+
+    /* Fonts */
+    --font-header: 'AlegreyaBlack', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    --font-header-bold: 'AlegreyaBold', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-header-italic: 'AlegreyaBold_Italic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --font-body: 'NunitoRegular', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    --font-body-bold: 'NunitoMedium_Italic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body-bold: 'NunitoBold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body-bold-italic: 'NunitoBold_Italic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+*{
+    color: var(--dark-text-light);
+}
+
+body {
+    background-color: var(--background-color-light);    
+}
+
+footer{
+    height: 50vw;
+}
+
+h1 {
+    font-family: var(--font-header-bold);
+    font-weight: 700;
+    font-size: 1.5rem;
 }
