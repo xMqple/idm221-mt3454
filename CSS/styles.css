@@ -80,6 +80,8 @@ html{
     
     /* Navigation */
     --menu-count: 4; 
+
+    --rhythm: 1.5rem;
 }
 
 *{
@@ -108,7 +110,11 @@ h1 {
     font-weight: 400;
     font-size: 2.18rem;
     text-align: center;
-    padding:
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    line-height: 0.8;
+    margin-top: var(--rhythm);
+    padding: 0 0.5rem;
 }
 
 h2 {
@@ -116,6 +122,7 @@ h2 {
     font-weight: 625;
     font-size: 1.625rem;
     text-align: center;
+    padding: 
 }
 
 h3 {
@@ -226,8 +233,13 @@ p {
     width: 100%;
 }
 
-.workAndProjects a {
+.buttons {
     text-align: center;
+}
+
+.banner {
+    height: auto;
+    width: 100%;
 }
 
 .Paris-Baguette {
