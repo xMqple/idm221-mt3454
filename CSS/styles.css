@@ -2,49 +2,49 @@
 
 @font-face {
     font-family: 'AlegreyaRegular';
-    src: url('../Fonts/Alegreya-Regular.woff2') format('woff2');
+    src: url('../fonts/alegrya-regular') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AlegreyaBold';
-    src: url('../Fonts/Alegreya-Bold.woff2') format('woff2');
+    src: url('../fonts/alegraya-bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AlegreyaBold_Italic';
-    src: url('../Fonts/Alegreya-BoldItalic.woff2') format('woff2');
+    src: url('../fonts/alegreya-bolditalic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NunitoRegular';
-    src: url('../Fonts/Nunito-Regular.woff2') format('woff2');
+    src: url('../fonts/nunito-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NunitoMedium_Italic';
-    src: url('../Fonts/Nunito-MediumItalic.woff2') format('woff2');
+    src: url('../fonts/nunito-mediumitalic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NunitoBold';
-    src: url('../Fonts/Nunito-Bold.woff2') format('woff2');
+    src: url('../fonts/nunito-bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NunitoBold_Italic';
-    src: url('../Fonts/Nunito-BoldItalic.woff2') format('woff2');
+    src: url('../fonts/nunito-bold-italic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
