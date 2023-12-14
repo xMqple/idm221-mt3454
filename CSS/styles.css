@@ -250,7 +250,7 @@ h2 p {
 }
 
 /* Burger Menu */
-label .menu {
+label  .menu {
   position: absolute;
   right: -100px;
   top: -100px;
@@ -266,7 +266,7 @@ label .menu {
   padding-bottom: 30px;
 }
 
-label .hamburger {
+label  .hamburger {
   position: absolute;
   top: 135px;
   left: 50px;
@@ -281,7 +281,7 @@ label .hamburger {
 }
 
 /* hamburger animation */
-label .hamburger:after, label .hamburger:before {
+label  .hamburger:after, label .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   content: "";
@@ -292,48 +292,48 @@ label .hamburger:after, label .hamburger:before {
   background: var(--background-color-light);
 }
 
-label .hamburger:before { 
+label  .hamburger:before { 
     top: -10px; 
 }
 
-label .hamburger:after { 
+label  .hamburger:after { 
     bottom: -10px; 
 }
 
-label input { 
+label  input { 
     display: none; 
 }
 
-label input:checked + .menu {
+label  input:checked + .menu {
   box-shadow: 0 0 0 100vw #B33D66, 0 0 0 100vh #B33D66;
   border-radius: 0;
   
 }
 
-label input:checked + .menu .hamburger {
+label  input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   
 }
 
-label input:checked + .menu .hamburger:after {
+label  input:checked + .menu .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
   
 }
 
-label input:checked + .menu .hamburger:before {
+label  input:checked + .menu .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
   
 }
 
-label input:checked + .menu + ul { opacity: 1; }
+label  input:checked + .menu + ul { opacity: 1; }
 
 /* list within hamburger menu */
-label ul {
+label  ul {
   z-index: 200;
   position: absolute;
   top: 50%;
