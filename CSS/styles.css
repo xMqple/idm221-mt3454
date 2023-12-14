@@ -82,12 +82,21 @@ html{
     --menu-count: 4; 
 
     --rhythm: 1.5rem;
+    font-size: 18px;
 }
 
-*, *:before, *:after 
-{ box-sizing: border-box; }
+*{
+    color: var(--dark-text-light);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-html { font-size: 18px; }
+*, *:before, *:after { 
+    box-sizing: border-box; 
+}
+
+
 
 #logo{ 
 	position:fixed; 
@@ -192,10 +201,6 @@ label a {
 }
 
 
-*{
-    color: var(--dark-text-light);
-}
-
 body {
     background-color: var(--background-color-light);    
 }
@@ -247,81 +252,22 @@ p {
     text-wrap: pretty;
 }
 
-/* Dropdown */
-.header-main {
-    width: 100%;
-    padding: 0 60px;
-    height: 60 px;
-    background-color: var(--background-color-light);
+.footerContainer {
+    width: 100%
+    padding: 70px 30px 20px;
+}
+
+.footerIcons {
     display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-}
-.header-main nav {
-    display: flex;
+    justify-content: center;
 }
 
-.header-main .logo {
-    height: 40px;
-    width: fit-content;
-    align-self: center;
-    cursor: pointer;
-}
-
-.header-main .logo img {
-    height: 100%;
-}
-
-.header-main ul {
-    height: 100%;
-    padding-left: 50px;
-    list-style: none;
-    display: flex;
-    align-self: center;
+.footerIcons a {
+    font-size: ;
+    padding: 10px;
 }
 
 
-.header-main ul li a {
-    display: block;
-    padding: 0 10px;
-    height: 100%;
-    line-height: 60px;
-    font-size: 1rem;
-    font-family: var(--font-body-bold);
-    color:#222020;
-    background-color: var(--background-color-light);
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all ease-in-out 10ms;
-}
-
-/* Socials Styling */
-.header-main .socials {
-    align-self:center;
-    display: flex;
-}
-
-.header-main .socials {
-    height: 100%;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-}
-
-.header-main .socials img {
-    height: 30px;
-    margin-left: 10px;
-    cursor: pointer;
-    align-self: center;
-}
-
-@media only screen and (max-width:600px){
-    header-main {
-        display: none;
-    } 
-}
 .pixelArt {
     width:100px;
     height: 120px;
