@@ -176,13 +176,13 @@ h1 {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width:770px) {
+/*@media (max-width:770px) {
     .wrapper{
         padding: 20px;
     }
-}
+}*/
 
-* .resumeButton {
+.resumeButton {
     color: var(--background-color-light);
     border: none;
     outline: none;
