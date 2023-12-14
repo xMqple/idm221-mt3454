@@ -408,17 +408,6 @@ h1 + img {
     padding: var(--rhythm);
 }
 
-img + p {
-    text-align: center;
-    margin-top: 3px;
-    margin-bottom: 10px;
-    padding: 0 1.5rem;
-    font-size: 1.5rem;
-    line-height: 25px;
-    color: #4A768C;
-    font-weight: 700;
-}
-
 /* resume format */
 .resume {
     margin-left: 20px;
@@ -490,3 +479,15 @@ img + p {
     color: var(--background-color-dark)
 }
 /* project and work format ends*/
+
+/* Text Under Profile Pic */
+.textUnderProfile {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #4A768C;
+    font-weight: 700;
+}
