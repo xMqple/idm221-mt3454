@@ -156,6 +156,10 @@ ul {
     font-family: var(--font-body);
 }
 
+ul li {
+    margin-bottom:3px;
+}
+
 h2 p {
     font-size: 1.8rem;
 }
@@ -442,3 +446,28 @@ img + p {
 }
 
 /* resume format ends */
+
+.projectAndWork {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projectAndWork img {
+    height: auto;
+    width: 100% 
+}
+
+.projectAndWork h2 {
+    padding: 1rem 0 0 0;
+}
+.projectAndWork p {
+    padding: 0 0 1rem 0;
+}
+
+.projectAndWork p + h2 {
+    margin-top: -1rem;
+}
+
+.projectAndWork ul {
+    font-size: .9rem;
+}
