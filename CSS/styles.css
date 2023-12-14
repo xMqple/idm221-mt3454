@@ -121,12 +121,12 @@ h1 {
     padding: 0 0.5rem;
     padding-bottom: 15px;
 }
+
 h2 {
     font-family: var(--font-header);
     font-weight: 625;
     font-size: 1.625rem;
     text-align: center;
-    padding: 
 }
 
 h3 {
@@ -149,6 +149,11 @@ p {
 
 a {
     font: var(--font-body-bold);
+}
+
+.banner img{
+    height: auto;
+    width: 100%;
 }
 
 .container {
@@ -220,9 +225,9 @@ a {
     padding: 8px 15px;
     background: var(--dark-blue-light);
     border-radius: 5px;
-    display:block;
     text-decoration: none;
     text-align:center;
+    display: block;
 }
 
 .wrapper h2{
@@ -273,11 +278,17 @@ label .hamburger:after, label .hamburger:before {
   background: var(--dark-pink-light);
 }
 
-label .hamburger:before { top: -10px; }
+label .hamburger:before { 
+    top: -10px; 
+}
 
-label .hamburger:after { bottom: -10px; }
+label .hamburger:after { 
+    bottom: -10px; 
+}
 
-label input { display: none; }
+label input { 
+    display: none; 
+}
 
 label input:checked + .menu {
   box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
@@ -364,7 +375,7 @@ label a {
     width: 100%;
 }
 
-.banner {
+.brochure img {
     height: auto;
     width: 100%;
 }
