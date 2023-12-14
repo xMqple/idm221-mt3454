@@ -121,11 +121,40 @@ h1 {
     padding: 0 0.5rem;
     padding-bottom: 15px;
 }
+h2 {
+    font-family: var(--font-header);
+    font-weight: 625;
+    font-size: 1.625rem;
+    text-align: center;
+    padding: 
+}
+
+h3 {
+    font-family: var(--font-header-italic);
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p {
+    color: var(--dark-text-light);
+    font-family: var(--font-body);
+    font-size: .8rem;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 100%;
+    line-height: 1.2rem;
+    /*text-wrap: pretty;*/
+}
+
+a {
+    font: var(--font-body-bold);
+}
 
 .container {
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat (auto-fit, minmax(270px, 1fr));
+    /*grid-template-columns: repeat (auto-fit, minmax(270px, 1fr));*/
     padding-bottom: 10px ;
 }
 
@@ -191,14 +220,14 @@ h1 {
     padding: 8px 15px;
     background: var(--dark-blue-light);
     border-radius: 5px;
-    display: inline-block;
+    display:block;
     text-decoration: none;
-    text-align: auto;
+    text-align:center;
 }
 
 .wrapper h2{
     color:var(--dark-pink-light);
-    padding: 0, 0, 1rem, 0;
+    /*padding: 0, 0, 1rem, 0;*/
     font-size: 1.8rem;
 }
 
@@ -300,36 +329,9 @@ label a {
 /* Burger Menu Stop Here */
 
 
-
-h2 {
-    font-family: var(--font-header);
-    font-weight: 625;
-    font-size: 1.625rem;
-    text-align: center;
-    padding: 
-}
-
-h3 {
-    font-family: var(--font-header-italic);
-    font-weight: normal;
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-p {
-    color: var(--dark-text-light);
-    font-family: var(--font-body);
-    font-size: .8rem;
-    font-weight: 500;
-    margin: 0 auto;
-    max-width: 100%;
-    line-height: 1.2rem;
-    text-wrap: pretty;
-}
-
 /* Footer */
 .footerContainer {
-    width: 100%
+    width: 100%;
     padding: 70px 30px 20px;
 }
 
