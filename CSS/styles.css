@@ -1,5 +1,4 @@
 /* Fonts */ 
-
 @font-face {
     font-family: 'AlegreyaRegular';
     src: url('../fonts/alegreya-regular.woff2') format('woff2');
@@ -84,7 +83,7 @@ html{
     --rhythm: 1.5rem;
     font-size: 18px;
 }
-
+/* Exceptions */
 *{
     color: var(--dark-text-light);
     padding: 0;
@@ -93,20 +92,15 @@ html{
     transition: .2s linear;
 }
 
+/* Exceptions */
 *, *:before, *:after { 
     box-sizing: border-box; 
 }
-
+/* Body */
 body {
     background-color: var(--background-color-light);
 }
 
-.wrapper {
-    margin: 10px;
-    padding: 0 10%;
-    padding-bottom: 10px;
-    text-transform: capitalize;
-}
 
 h1 {
     font-family: var(--font-header);
@@ -169,12 +163,21 @@ h2 p {
     width: 100%;
 }
 
+/* Home Page Containers */
+.wrapper {
+    margin: 10px;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
 .container {
     display: grid;
     gap: 15px;
     /*grid-template-columns: repeat (auto-fit, minmax(270px, 1fr));*/
     padding-bottom: 10px ;
 }
+
 
 .box {
     height: auto;
@@ -201,6 +204,14 @@ h2 p {
     line-height: 1.6;
 }
 
+.wrapper h2{
+    color:var(--dark-pink-light);
+    /*padding: 0, 0, 1rem, 0;*/
+    font-size: 2rem;
+}
+
+/* Button! */
+
 .btn {
     color: var(--dark-blue-light);
     border: none;
@@ -213,6 +224,8 @@ h2 p {
     display: inline-block;
     text-decoration: none;
 }
+
+/* Butter Effeccts */
 
 .btn:hover {
     letter-spacing: 1px;
@@ -243,14 +256,9 @@ h2 p {
     display: block;
 }
 
-.wrapper h2{
-    color:var(--dark-pink-light);
-    /*padding: 0, 0, 1rem, 0;*/
-    font-size: 2rem;
-}
 
-/* Burger Menu */
-label  .menu {
+/* Burger Menu  Navigation*/
+label .menu {
   position: absolute;
   right: -100px;
   top: -100px;
@@ -266,7 +274,7 @@ label  .menu {
   padding-bottom: 30px;
 }
 
-label  .hamburger {
+label .hamburger {
   position: absolute;
   top: 135px;
   left: 50px;
@@ -280,8 +288,8 @@ label  .hamburger {
   transition: .5s ease-in-out;
 }
 
-/* hamburger animation */
-label  .hamburger:after, label .hamburger:before {
+
+label .hamburger:after, label .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   content: "";
@@ -296,44 +304,44 @@ label  .hamburger:before {
     top: -10px; 
 }
 
-label  .hamburger:after { 
+label .hamburger:after { 
     bottom: -10px; 
 }
 
-label  input { 
+label input { 
     display: none; 
 }
-
-label  input:checked + .menu {
+/* Burger Menu  Animation */
+label input:checked + .menu {
   box-shadow: 0 0 0 100vw #B33D66, 0 0 0 100vh #B33D66;
   border-radius: 0;
   
 }
 
-label  input:checked + .menu .hamburger {
+label input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   
 }
 
-label  input:checked + .menu .hamburger:after {
+label input:checked + .menu .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
   
 }
 
-label  input:checked + .menu .hamburger:before {
+label input:checked + .menu .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
   
 }
 
-label  input:checked + .menu + ul { opacity: 1; }
+label input:checked + .menu + ul { opacity: 1; }
 
-/* list within hamburger menu */
-label  ul {
+/* Burger Menu List*/
+label ul {
   z-index: 200;
   position: absolute;
   top: 50%;
@@ -345,7 +353,6 @@ label  ul {
   transition: .25s 0s ease-in-out;
 }
 
-/* menu items */
 label a {
   margin-bottom: 1em;
   display: block;
@@ -355,11 +362,11 @@ label a {
   font-family: var(--font-body-bold);
 }
 
-
+/* Spacing from Burger Menu To Header */
 body h1 {
     padding-top: 80px;
     text-align: center;
-  }
+  } 
 
 /* Burger Menu Stop Here */
 
